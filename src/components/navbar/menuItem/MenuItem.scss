@@ -1,0 +1,38 @@
+@import '../../../assets/styles/colors.scss';
+
+.menu-item-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    .menu-item-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .menu-item-container__title {
+            margin: 0;
+        }
+    }
+}
+.menu-subitems-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 90px;
+    // right: 0px;
+    .menu-item-subItem {
+        text-align: center;
+        background-color: $blue-opacity-color;
+        color: #fff;
+        width: 230px;
+        height: 44px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1px;
+
+    }
+}

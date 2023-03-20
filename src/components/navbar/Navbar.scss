@@ -1,0 +1,44 @@
+@import '../../assets/styles/colors.scss';
+
+.navbar {
+    width: 100%;
+    height: 124px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: thin solid #7b7b7b;
+    position: fixed;
+    top: 0;
+    .navbar-content {
+        width: 85%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        .navbar-logo-container {
+            height: 90px;
+            width: 261px;
+            img {
+                width: 100%;
+            }
+        }
+        .navbar-menu-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            color: $blue-main-color;
+        }&:nth-child(3) {
+            font-weight: bolder;
+        }
+        .navbar-auth-container {
+            width: 70px;
+            height: 70px;
+
+            svg {
+                color: #0F4C81;
+            }
+        }
+    }
+}
