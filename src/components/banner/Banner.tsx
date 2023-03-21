@@ -21,14 +21,21 @@ const backgroundImages: BackgroundImagesType[] = [
         url: 'https://res.cloudinary.com/dvwigktot/image/upload/v1678416448/canal_digital/presion_2_slide_sjg718.png',
         name: 'second slide',
         position: 1,
-        text: '"Confíe en nosotros para obtener resultados de alta calidad"'
+        text: '"Más que un laboratorio clínico, somos tu aliado en la salud"'
     },
     {
         url: 'https://res.cloudinary.com/dvwigktot/image/upload/v1678416448/canal_digital/presion_1_slide_nt58ua.png',
         name: 'thrid slide',
         position: 2,
         text: 'Su salud es nuestra prioridad: resultados precisos, atención personalizada."'
-    }
+    },
+    {
+        url: 'https://res.cloudinary.com/dvwigktot/image/upload/v1678416448/canal_digital/presion_2_slide_sjg718.png',
+        name: 'second slide',
+        position: 1,
+        text: '"Cuidando de su salud con tecnología de vanguardia"'
+    },
+
 ];
 
 

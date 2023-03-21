@@ -5,7 +5,7 @@
     height: 124px;
     display: flex;
     flex-direction: row;
-    border-bottom: thin solid #7b7b7b;
+    border-bottom: thin solid #d3d3d3;
     position: fixed;
     top: 0;
     .navbar-content {
@@ -26,9 +26,10 @@
             display: flex;
             flex-direction: row;
             align-items: center;
-            justify-content: center;
+            justify-content: space-around;
             gap: 10px;
             color: $blue-main-color;
+            width: 60%;
         }&:nth-child(3) {
             font-weight: bolder;
         }
